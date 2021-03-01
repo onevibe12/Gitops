@@ -5,3 +5,7 @@ resources:
 - bluegreen-rollout.yaml
 - bluegreen-service.yaml
 - bluegreen-preview-service.yaml
+
+images:
+- name: argoproj/rollouts-demo
+  newTag: "green"
