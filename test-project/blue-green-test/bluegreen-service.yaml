@@ -10,7 +10,7 @@ spec:
     targetPort: http
     protocol: TCP
     name: http
-    nodePort: 30401
+    nodePort: 30101
   type: NodePort
   selector:
     app: bluegreen-demo
