@@ -10,7 +10,7 @@ spec:
     targetPort: http
     protocol: TCP
     name: http
-    nodePort: 30502
+    nodePort: 30202
   type: NodePort
 
   selector:
