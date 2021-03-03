@@ -10,7 +10,7 @@ spec:
     targetPort: http
     protocol: TCP
     name: http
-    nodePort: 30501
+    nodePort: 30201
   type: NodePort
   selector:
     app: canary-demo
